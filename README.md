@@ -31,7 +31,7 @@ Features:
   • Groups will attach a document file which is relevant to their project on their group profile, by that feature other groups can examine that file and review the peer groups according to their work.
 
 7)	Group Review Mechanism
-  •	By the help of the attach file feature, all students can evaluate other groups' projects by grading. The groups and other students will only see the average grade of the projects. Instructor can also evaluate projects and he can also see the other students' given comments and grades of the projects as well.   
+  •	By the help of the attach file feature, all students can evaluate other groups' projects by grading. The groups and other students will only see the average grade of the projects. Instructor can also evaluate projects and he or she can also see the other students' given comments and grades of the projects as well.   
 
 8)	Group Formation Page
   •	The students can form groups here by viewing the students' list of the course. Students can join groups or create a new one as well. Following feature will help to form groups.
