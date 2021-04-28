@@ -1,0 +1,489 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: sans-serif;
+  margin:0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #AFAEB4;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display:block;
+}
+img {
+  size: contain;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align:left;
+}
+.navbar-brand {
+  padding-top: 5px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3;
+}
+#header-nav a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: large;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#header-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#header-nav a.active {
+  background-color: #AFAEB4;
+  color: white;
+}
+#upNav {
+  text-align: right;
+  margin-right: 8%;
+  padding-bottom: 1%;
+}
+#upNav a {
+  text-shadow: none;
+  font-size: small;
+  margin-left: 5%;
+  font-weight: bold;
+  
+}
+
+/*
+#search-container {
+  display: block;
+  float: right;
+  
+  
+  
+  margin-right: 2%;
+  
+  
+}*/
+
+
+/*desktop*/
+@media (min-width: 421px) {
+  #main-content{
+    box-sizing: border-box;
+    height:90%;
+
+  }
+  #col1{
+
+    display: block;
+   
+      width: 25%;
+      float: left;
+
+
+  }
+
+#course-info{
+
+    color: black;
+    font-size: small;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 3px 2px gray;
+    -moz-box-shadow: 0 0 3px 2px black;
+    box-shadow: 0 0 3px 2px gray;
+  }
+
+
+
+#chats-button {
+  color: black;
+    font-size: small;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 3px 2px gray;
+    -moz-box-shadow: 0 0 3px 2px black;
+    box-shadow: 0 0 3px 2px gray;
+}
+#chats-button button {
+  margin:0;
+  width: 100%;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:none; 
+  transition-duration: 0.4s; 
+
+
+}
+
+
+#chats-button button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+}
+
+
+#chats-button button:focus,
+#chats-button button.focus {
+  color: #fff;
+  background-color: #AFAEB0; /*this is where the colour was green*/
+  border-color: #AFAEB0;
+}
+
+
+#sections{
+  -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+    color: black;
+    font-size: small;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+  }
+ #sections li{
+
+    color: black;
+    font-size: small;
+    
+    text-align: center;
+    display: block;
+
+    
+  }
+   #sections ol{
+
+    color: black;
+
+    
+  }
+#sections button {
+  margin:0;
+  width: 100%;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:none; 
+  transition-duration: 0.4s; 
+
+
+}
+
+
+#sections button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+}
+
+
+#sections button:focus,
+#sections button.focus {
+  color: #fff;
+  background-color: #AFAEB0; /*this is where the colour was green*/
+  border-color: #AFAEB0;
+}
+
+ #sections ol{
+  padding:0;
+
+  } 
+  #col2{
+    display: block;
+    margin-top: 1%;
+
+    height: 90%;
+    width: 48%;
+    float: left;
+    height: max(20vw, 550px); 
+  -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;   
+  }
+
+/*  */
+
+  #chatbox {
+    margin-bottom: 25px;
+    margin-right: 0;
+    margin-left: 0;
+    background: #fff;
+    box-sizing: border-box;
+    height: max(20vw, 450px); 
+    font-size: small;
+    overflow-y: scroll;
+    border-bottom: 2px solid #a7a7a7;
+
+
+
+
+    /*  
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+    */
+  }
+    #chatbox ul{
+      display: block;
+
+
+  }
+
+  #chatbox li {
+    float: right;
+    margin-left: 40%;
+    margin-right: 3%;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+    color: black;
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color:#F0F8FF;
+    text-align: left;
+    padding: 1% 5%;
+
+  }
+  #col2 form{
+    text-align: center;
+    display: flex;
+    height: 15%;
+
+
+  }
+   
+  #usermsg {
+
+    width: 60%;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 2px 8px;
+    margin-bottom :4%;
+    margin-top :2%;
+    margin-left: 5%;
+  }
+   
+  #submitmsg {
+    margin-bottom :4%;
+    margin-top :2%;
+  width: 12%;
+  font-size: 14px;
+  border-radius: 28px;
+  background-color: white;
+  color: black; 
+  transition-duration: 0.4s; 
+  height: 30px;
+  padding-left: 5px;
+  margin-left: 5%;
+  -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+    border: 1px solid black;
+
+}
+#submitmsg:hover {
+  background-color: #AFAEB0; 
+  color: white;
+
+}
+
+/**/
+
+
+
+
+  #col3{
+    display: block;
+    width: 25%;
+    float: left;   
+ 
+  }
+
+
+
+  #col3 button {
+  margin-top :10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:1px solid black;  
+  transition-duration: 0.4s; 
+  -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+
+}
+#col3 button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+
+}
+
+
+
+#groupList {
+  color: black;
+    font-size: small;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 3px 2px gray;
+    -moz-box-shadow: 0 0 3px 2px black;
+    box-shadow: 0 0 3px 2px gray;
+}
+#groupList button {
+  margin:0;
+  width: 100%;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:none; 
+  transition-duration: 0.4s; 
+
+
+}
+
+
+#groupList button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+}
+
+
+#groupList button:focus,
+#groupList button.focus {
+  color: #fff;
+  background-color: #AFAEB0; /*this is where the colour was green*/
+  border-color: #AFAEB0;
+}
+
+
+
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color: black;
+
+  }
+
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center; /* Could be more or less, depending on screen size */
+    padding: 0;
+  -webkit-box-shadow: 0 0 6px 4px gray;
+  -moz-box-shadow: 0 0 6px 4px black;
+  box-shadow: 0 0 6px 4px gray;
+  border-radius: 20px;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    margin-right: 3%;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  #popup_header{
+    margin-top: 1%;
+    margin-bottom: : 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid #a7a7a7;
+  }
+
+ .modal-content p {
+  display: block;
+  height: 70px;
+
+ }
+
+ .modal-content button {
+  margin-right: 10%;
+  margin-left: 20%;
+  margin-top: 5%;
+
+  margin-bottom: 2%;
+  align-content: top;
+  float: left;
+  width:20%;
+  height: 50%;
+  font-size: 17px;
+  padding: 23px 27px
+  border-radius: 18px;
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 3px 2px gray;
+  border-radius: 20px;
+  transition-duration: 0.4s; 
+
+
+}
+
+
+
+.modal-content  button:hover {
+  background-color: #1E90FF; 
+  color: white;
+
+}
+
+
+
+}
