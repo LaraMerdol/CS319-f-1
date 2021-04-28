@@ -22,12 +22,6 @@ public class Main {
         s1.addSection(3,12,null);
         s1.addStudentToSection(21703920,3);
 
-
-
-
-
-
-
      //  database.printDatas();
 /*
 
