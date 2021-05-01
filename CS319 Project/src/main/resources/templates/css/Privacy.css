@@ -1,0 +1,146 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: sans-serif;
+  margin:0;
+
+}
+#Privacy {
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+#PrivacyHead {
+  font-size: 2.0em;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #AFAEB4;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align:left;
+}
+.navbar-brand {
+  padding-top: 5px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3;
+}
+#header-nav a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: large;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#header-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#header-nav a.active {
+  background-color: #AFAEB4;
+  color: white;
+}
+#upNav {
+  text-align: right;
+  margin-right: 5%;
+}
+#upNav a {
+  text-shadow: none;
+  font-size: small;
+  margin-left: 5%;
+  font-weight: bold;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  text-align: center;
+}
+/* Footer */
+/********** desktop verson **********/
+@media (min-width: 421px) {
+  .col-lg-5 {
+    float: left;
+    width: 20%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: right;
+  }
+  .col-lg-6 {
+    float: left;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+}
+/********** phone version **********/
+@media (max-width: 420px) {
+  .col-sm-4 {
+    float: left;
+    width: 33.33%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+  .col-sm-6 {
+    float: left;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+}
+footer {
+  height: 150px;
+  width: 100%;
+}
+#myNavbar  {
+  background-color:#AFAEB4;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+}
+/* Style the links inside the navigation bar */
+#myNavbar a {
+  display: block;
+  font-weight: bold;
+  display: block;
+  color: black;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-decoration: none;
+  font-size: 1em;
+}
+#footer_item {
+  text-align: center;
+}
+#myNavbar a:hover { /* Change the color of links on hover */
+  background-color: #ddd;
+  color: black;
+}
+#myNavbar a.active { /* Add a green background color to the active link */
+  background-color: #AFAEB4;
+  color: white;
+}
+#myNavbar .icon { /* Hide the link that should open and close the navbar on small screens */
+  display: none;
+}

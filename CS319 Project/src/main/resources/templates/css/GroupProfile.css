@@ -1,0 +1,342 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: sans-serif;
+  margin:0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #AFAEB4;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display:block;
+}
+img {
+
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align:left;
+}
+.navbar-brand {
+  padding-top: 5px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3;
+}
+#header-nav a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-size: large;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+#header-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#header-nav a.active {
+  background-color: #AFAEB4;
+  color: white;
+}
+#upNav {
+  text-align: right;
+  margin-right: 8%;
+  padding-bottom: 1%;
+}
+#upNav a {
+  text-shadow: none;
+  font-size: small;
+  margin-left: 5%;
+  font-weight: bold;
+  
+}
+
+/*
+#search-container {
+  display: block;
+  float: right;
+  
+  
+  
+  margin-right: 2%;
+  
+  
+}*/
+
+
+
+  #main-content{
+    box-sizing: border-box;
+    height:90%;
+
+  }
+  #col1{
+
+    display: block;
+   margin-top: 2%;
+      width: 25%;
+      float: left;
+
+
+  }
+
+#course-info{
+
+    color: black;
+    font-size: small;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 3px 2px gray;
+    -moz-box-shadow: 0 0 3px 2px black;
+    box-shadow: 0 0 3px 2px gray;
+  }
+
+
+
+#chats-button {
+  color: black;
+    font-size: small;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 3px 2px gray;
+    -moz-box-shadow: 0 0 3px 2px black;
+    box-shadow: 0 0 3px 2px gray;
+}
+#chats-button button {
+  margin:0;
+  width: 100%;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:none; 
+  transition-duration: 0.4s; 
+
+
+}
+
+
+#chats-button button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+}
+
+
+#chats-button button:focus,
+#chats-button button.focus {
+  color: #fff;
+  background-color: #AFAEB0; /*this is where the colour was green*/
+  border-color: #AFAEB0;
+}
+
+
+
+  #col2{
+    display: block;
+    margin-top: 2%;
+
+    height: 90%;
+    width: 48%;
+    float: left;
+    height: max(20vw, 550px); 
+  -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;   
+  }
+
+
+
+  #col3{
+    display: block;
+    width: 25%;
+    float: left;
+    text-align: center;   
+ 
+  }
+  #row1{
+    border-bottom: 1px solid black;
+  }
+  #col3 button {
+
+  margin-top :3%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 50%;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:1px solid black;  
+  transition-duration: 0.4s; 
+  -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+
+}
+#col3 button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+
+}
+#row2{
+  margin-bottom: 4%;
+  margin-top: 0;
+border-bottom: 1px solid black;
+
+}
+#row2 div{
+  display:flex;
+}
+ #row2 input{
+  margin-top :10%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  flex: 50%;
+  font-size: 12px;
+  padding: 4px 8px;
+
+ }
+ #row2 button{
+  margin-top :10%;
+  margin-right: 5%;
+  margin-left: 5%;
+  flex: 40%;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:1px solid black;  
+  transition-duration: 0.4s; 
+  -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+ }
+ #row3{
+
+  margin-bottom: 4%;
+  border-bottom: 1px solid black;
+ }
+ #row4{
+
+  border-bottom: 1px solid black;
+ }
+#row4 textarea{
+/* This ruins default border */
+margin-top: 3%;
+  border: 1px solid #888; 
+}
+ #row4 button{
+  margin-top :3%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  flex: 40%;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  border:1px solid black;  
+  transition-duration: 0.4s; 
+  -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+ }
+
+#row4 a{
+/* This ruins default border */
+  color:black;
+    -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+
+}
+#row5 {
+    -webkit-box-shadow: 0 0 3px 2px gray;
+  -moz-box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 3px 2px gray;
+  width: 90%;
+  margin-left: 2%;
+  text-align: center;
+}
+#row5 h2{
+  color: black;
+
+}
+#row5 ul{
+  color: black;
+  list-style-type: none;
+}
+#row5 li{
+  color: black;
+  text-align:left;
+  margin-top: 5%;
+  margin-right: 10%;
+
+
+}
+
+#accept{
+  height: 80%;
+  width: 30%;
+  color: black;
+  margin-left: 4%;
+  margin-right: 0;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color:  #228B22;
+  color: white;
+
+  border: 1px solid black;
+
+ 
+}
+#reject{
+   height: 80%;
+  width: 30%; 
+  color: black;
+  margin-left: 4%;
+  margin-right: 0;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color:  #228B22;
+  color: white;
+
+  transition-duration: 0.4s;   
+  background-color:   #8B0000; 
+  border: 1px solid black;
+
+}
+
+
+#row5 li button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+}

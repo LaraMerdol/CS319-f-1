@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+    <script src="welcome.js"></script>
+</head>
+<body>
+    <h1>This is the Home Page</h1>
+    <button onclick="indexcall1()">
+        click
+    </button>
+
+<script>
+    function indexcall1() {
+        let httpRequest = new XMLHttpRequest();
+        let a = 43;
+        httpRequest.open("GET", 'http://localhost:8081/api/m1?s1="adfg"&s2='+a);
+        httpRequest.send();
+        httpRequest.onload = function () {
+            alert(httpRequest.responseText);
+        }
+        console.log("Inside the .js file");
+    }
+</script>
+</body>
+</html>

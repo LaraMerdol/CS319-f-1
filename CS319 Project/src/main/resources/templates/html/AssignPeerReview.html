@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peer Review System</title>
+    <link rel="stylesheet" href="../css/AssignPeerReview.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div id ="nav-container" class="container">
+          <div class="navbar-header">
+            <a href="../welcome_page.html" class="pull-left visible-md visible-lg"></a>
+
+            <div class="navbar-brand">
+              <a href="DashBoardInstructor.html"><h1> <img src="../images/logo.png" alt="logo"> Peer Review System </h1></a>
+              <div id="upNav">
+                  <a href="DashboardInstructor.html"> DashBoard <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                    <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/></svg>
+                  </a>
+              </div><!-- #upNav -->
+            </div><!-- .navbr-brand -->
+          </div><!-- .navbar-header -->
+        </div><!-- .container -->
+      </nav><!-- #header-nav -->
+    </header>
+
+    <div id="main-content" class="container">
+    <div id= "questions">
+      <div id = "MultipleChoice" > <div class= header><h2>Multiple Choice </h2></div>
+        <div id = "MultipleChoice_alt1" >
+          <textarea placeholder="Enter the question..." id="MultipleChoiceQ" name="MultipleChoiceQ" rows="5" cols="15"></textarea> 
+        </div>
+
+        <hr style="width:110%;text-align:center;">
+
+      
+        <div id = "MultipleChoice_alt2" >
+          <span id ="addButton"><button id="add" value="Add" onclick="addItem()"> Add Choice </button></span>
+        </div>
+      
+        <div id = "MultipleChoice_alt3">
+          <textarea placeholder="Enter a choice..." id="ChoiceText" name="ChoiceA" rows="3" cols="15"></textarea>
+        </div>
+      <br>
+        
+
+<ol id= answerList style="list-style-type:lower-alpha">
+
+ 
+</ol>
+<hr style="width:110%;text-align:center;">
+<div id = "MultipleChoice_alt4">
+          <button id= "MultipleChoiceB"onclick="addMultipleChoiceQuestion()" > Submit Question </button>
+        </div>
+
+ </div>
+
+      <div id = "RateQuestion" ><div class= header><h2>Rate Question </h2></div> <br>
+
+        <div id = "RateQuestion_alt1">
+          <textarea id="RateQuestionQ" name="RateQuestionQ" rows="5" cols="15"   placeholder="Enter the question..." ></textarea> 
+        </div>
+        <div id ="rate-select">
+          <select id ="selectedRate">
+            <option value="0">Select max rate</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+        </div>
+        <hr style="width:110%;text-align:center;">
+        <div id = "RateQuestion_altSubmit">
+          <button  id = RateQuestionB onclick="addRateQuestion()"> Submit Question </button>
+        </div>
+
+      </div> 
+      <div id = "OpenEnded"><div class= header><h2>Open Ended </h2></div>
+      <div id = "OpenEnded_alt1">
+        <textarea id="OpenEndedQ" name="OpenEndedQ" rows="5" cols="15" placeholder="Enter the question..."></textarea>
+      </div>
+      <hr style="width:110%;text-align:center;">
+      <div id = "OpenEnded_altSubmit">
+        <button id = OpenEndedB onclick="addOpenEndedQuestion()"> Submit Question </button>
+      </div>
+    </div>
+
+</div>
+
+
+<div id= "ListOfAddedQuestion"><div id= "headerNav"><h1> List Of Added Question <button id= "SubmitB"onclick="submit()"> Submit Peer Review </button></h1>  
+    
+</div> 
+
+    <div id= "AddedQuestions">
+      
+      <div id ="MultipleChoices">
+        <div class= "header"><p>Multiple Choice Questions</p>  </div>
+
+        <ol id = "Choicequestions">
+
+          
+        </ol>
+
+      </div>        
+
+      <div id ="RateQuestions">
+        <div class= "header"><p>Rate Questions</p>  </div>
+        <ol id = "RatequestionList">
+
+          
+        </ol>
+      </div>
+      <div id ="OpenEndeds">
+        <div class= "header"><p>Open Ended Questions</p>  </div>
+        <ol id = "OpenEndedquestions">
+
+          
+        </ol>      
+      </div>
+
+   
+    </div>
+  </div> 
+
+   
+
+   
+    </div></div>  
+  </div><!-- End of #main-content -->
+
+    <script src="../js/peer-script.js"></script>
+  </body>
+
+
+</html>
