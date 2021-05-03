@@ -3,6 +3,8 @@ CS 319 Team Project 1-f
 
 Project Description: 
   This project is a classroom helper application which is mainly focused on peer reviewing system with different functionalities. 
+  
+ The youtube link of trailer: https://youtu.be/ywxCzDxk-yM
 
 Group Members:
   Lara Merdol
